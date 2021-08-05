@@ -8,7 +8,7 @@ const Navbar = ({ isScrolling }) => {
   return (
     <nav className={`navbar ${isScrolling > 35 ? "scrolling" : null}`}>
       <div className="navbar-logo" onClick={haciaArriba}>
-        Anthony Hernandez FLores
+        Anthony Hernandez Flores
       </div>
     </nav>
   );

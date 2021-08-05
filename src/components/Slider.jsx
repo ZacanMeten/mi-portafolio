@@ -8,17 +8,16 @@ const Slider = () => {
   return (
     <div className="carousel-container">
       <div className="carousel-title">My Projects</div>
-
       <Carousel
-        plugins={['arrows', 'infinite', 'centered']}
-        slidesPerPages={3}
+        plugins={["arrows", "infinite", "centered"]}
+        slidesPerPage={3}
         animationSpeed={200}
         offset={50}
-        itemWidth={450}
+        itemWidth={400}
         slides={Slides}
         breakpoints={{
           960: {
-            slidesPerPages: 1,
+            slidesPerPage: 1,
             arrows: false,
             itemWidth: 250,
           },
