@@ -1,5 +1,8 @@
 import React from "react";
-import Carousel, { slidesToShowPlugin } from "@brainhubeu/react-carousel";
+import Carousel, {
+  autoplayPlugin,
+  slidesToShowPlugin,
+} from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 import Slides from "./Slides";
 import "./styles/Slider.css";
@@ -10,21 +13,35 @@ const Slider = () => {
       <div className="carousel-title">My Projects</div>
       <Carousel
         slides={Slides}
-        animationSpeed={250}
-        offset={40}
-        itemWidth={410}
+        animationSpeed={200}
+        offset={50}
+        itemWidth={400}
         plugins={[
-          'centered',
-          'infinite',
-          'arrows', 
-          { 
+          "centered",
+          "infinite",
+          "arrows",
+          {
             resolve: slidesToShowPlugin,
-            options:{numberOfSlides: 3},
-          }]
-        }
-        breakpoints={
-          {960: {plugins:[{resolve: slidesToShowPlugin, options:{numberOfSlides:1}}]}}
-        }
+            options: { numberOfSlides: 3 },
+          },
+          {
+            resolve: autoplayPlugin,
+            options: {
+              interval: 3500,
+            },
+          },
+        ]}
+        breakpoints={{
+          960: {
+            itemWidth: 250,
+            plugins: [
+              {
+                resolve: slidesToShowPlugin,
+                options: { numberOfSlides: 2 },
+              },
+            ],
+          },
+        }}
       />
     </div>
   );
