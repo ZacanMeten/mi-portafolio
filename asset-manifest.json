@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/mi-portafolio/static/css/main.a048ce70.chunk.css",
+    "main.js": "/mi-portafolio/static/js/main.9743f9f0.chunk.js",
+    "main.js.map": "/mi-portafolio/static/js/main.9743f9f0.chunk.js.map",
+    "runtime-main.js": "/mi-portafolio/static/js/runtime-main.775d1758.js",
+    "runtime-main.js.map": "/mi-portafolio/static/js/runtime-main.775d1758.js.map",
+    "static/css/2.dab86632.chunk.css": "/mi-portafolio/static/css/2.dab86632.chunk.css",
+    "static/js/2.ab0647eb.chunk.js": "/mi-portafolio/static/js/2.ab0647eb.chunk.js",
+    "static/js/2.ab0647eb.chunk.js.map": "/mi-portafolio/static/js/2.ab0647eb.chunk.js.map",
+    "index.html": "/mi-portafolio/index.html",
+    "static/css/2.dab86632.chunk.css.map": "/mi-portafolio/static/css/2.dab86632.chunk.css.map",
+    "static/css/main.a048ce70.chunk.css.map": "/mi-portafolio/static/css/main.a048ce70.chunk.css.map",
+    "static/js/2.ab0647eb.chunk.js.LICENSE.txt": "/mi-portafolio/static/js/2.ab0647eb.chunk.js.LICENSE.txt",
+    "static/media/Background.db1c2b8e.mp4": "/mi-portafolio/static/media/Background.db1c2b8e.mp4",
+    "static/media/Me.18641dc1.jpg": "/mi-portafolio/static/media/Me.18641dc1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.775d1758.js",
+    "static/css/2.dab86632.chunk.css",
+    "static/js/2.ab0647eb.chunk.js",
+    "static/css/main.a048ce70.chunk.css",
+    "static/js/main.9743f9f0.chunk.js"
+  ]
+}
